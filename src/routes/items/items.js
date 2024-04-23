@@ -10,15 +10,16 @@ exports.getPromotion = (ctx) => {
 
     }
     let items = itemsActions.getPromotion(ctx.request.body)
-    if(items[0]==-1){
+    if(items==-1){
         ctx.status = 400
         ctx.body = {
             "status": "NOK",
-             "error_message": "AMOUNT OR PRICE SHOULD BE GREATER THAN ZERO"
+            "error_message": "AMOUNT OR PRICE SHOULD BE GREATER THAN ZERO"
         }
         return ctx
     }
+    else{
     ctx.status = 200
-    ctx.body = items
+    ctx.body = items}
     return ctx
 }
