@@ -1,0 +1,23 @@
+[
+    "cart_id": "e08db6e8-9c01-4c3d-9eea-881425897eaa",
+    "items": [
+{
+"item_id": "123456",
+"promotion": "Nx$",
+"amount": 3,
+"unit_base_price": 2000
+},
+{
+"item_id": "987654",
+"promotion": "AyA",
+"amount": 2,
+"unit_base_price": 3000,
+},
+{
+"item_id": "7465802",
+"promotion": "",
+"amount": 1,
+"unit_base_price": 1500,
+}
+]
+]
